@@ -1,0 +1,46 @@
+.footer-wrapper{
+    background-color: gray;
+}
+
+.fuse-footer {
+    background-color: gray;
+    width: 100%;
+    border-top: 1px white;
+    height: 200px;
+    color: gray;
+    right: 10px;
+    bottom: 0;
+    padding-top: 20px;
+}
+
+.footer-linkmenu{
+    color: white;
+    font-weight: 600;
+    padding: 0;
+    border: 0;
+    background: none;
+    margin-top: 8px;
+}
+
+.footer-link{
+    font-weight: 100;
+    line-height: 1.5;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+}
+
+.row{
+    display: flex;
+    max-width: 1120px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 50px auto;
+
+    ul{
+        padding-inline-start: 0 !important;
+        width: 200px;
+    }
+}

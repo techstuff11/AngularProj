@@ -1,0 +1,39 @@
+.nav-container{
+    background-color: rgb(170, 226, 246);
+    min-height: 1000px;
+    width: 163px;
+}
+
+.nav-container .nav-menu{
+    font-size: 14px;
+    font-style: normal;
+    color: gray;
+    font-weight: 400;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    margin: auto 0;
+
+    .nav-list{
+        line-height: 50px;
+        text-decoration: none;
+
+        .nav-item{
+            list-style-type: none;
+
+            a{
+                text-decoration: none;
+                color: inherit;
+            }
+
+            a:hover{
+                font-weight: 600;
+            }
+
+            a:active{
+                font-weight: 600;
+            }
+        }
+    }
+}
